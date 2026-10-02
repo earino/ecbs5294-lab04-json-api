@@ -177,5 +177,5 @@ git reset --hard origin/main
 git clean -fdx
 ```
 
-> ⚠️ Discards your local commits and uncommitted changes. The `-x` also removes ignored files — `data/silver/`, the
-> `.venv/` environment — so the folder matches a fresh clone. `uv sync` rebuilds the environment in a minute.
+> ⚠️ Discards your local commits and uncommitted changes. The `-x` also removes every ignored file — `data/silver/`, the
+> `.venv/` environment, and anything else `.gitignore` lists, such as `.vscode/` and `.env` — so the folder matches a fresh clone. `uv sync` rebuilds the environment in a minute.
