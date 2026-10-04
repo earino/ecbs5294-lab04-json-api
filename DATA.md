@@ -2,6 +2,8 @@
 
 Everything under `data/raw/` is real, public data, committed on purpose and **never edited**. Where it came from, its license, and exactly what was changed for this course:
 
+The names of places in these files are their publishers'. Their use in this course says nothing about the political status of any place.
+
 ## Frankfurter — ECB euro reference rates, cached
 
 **Source:** the Frankfurter API (https://frankfurter.dev), which serves the European Central Bank's euro foreign
