@@ -64,7 +64,7 @@ for `NY.GDP.MKTP.PP.KD` (GDP, PPP, constant 2021 international dollars), pages 1
 **Response shape:** every file is a two-element JSON array. Element 0 is metadata (`page`, `pages`, `per_page`,
 `total`). Element 1 is the records. **Each file is one page**: page 1 holds 1,000 of the 3,975 records. The
 metadata file's `region` field is `"Aggregates"` for rows that are groups of countries (`WLD`, `EUU`, income
-groups), not countries.
+groups); every other row is one place.
 
 **License:** **CC BY 4.0**. Attribution: *World Bank, World Development Indicators*.
 
